@@ -1,0 +1,5 @@
+git checkout nomeBranch -> Mudará para da branch atual para a nomeBranch
+
+git branch nomeBranch -> Criará uma nova branch. Para cada branch, um histórico de Commits diferentes aparecerá
+
+git commit -m "Nome do commit" -> Criará um novo commit
