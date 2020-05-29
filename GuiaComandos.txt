@@ -3,3 +3,17 @@ git checkout nomeBranch -> Mudará para da branch atual para a nomeBranch
 git branch nomeBranch -> Criará uma nova branch. Para cada branch, um histórico de Commits diferentes aparecerá
 
 git commit -m "Nome do commit" -> Criará um novo commit
+
+git diff é usado antes de dar o commit, para ver as diferenças com a versão anterior do arquivo
+
+git diff --name-only mostra os arquivos que foram alterados
+
+git diff nomeDoArquivo mostra apenas a alteracao no arquivo especificado
+
+git checkout HEAD -- nomeDoArquivo volta para a versao anterior do arquivo
+
+*.extensaoDoArquivo vai selecionar todos os arquivos que forem da extensão colocada
+
+git reset -soft	numCommit  mantém os commits posteriores, a espera pelo commit da atual mudança
+	  -mixed numCommit	
+ 	  -hard	numCommit  excluirá os commits posteriores
